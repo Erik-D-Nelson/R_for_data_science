@@ -14,6 +14,7 @@ flights %>%
   select(index_number, everything())
 
 #question13.3.2
+<<<<<<< HEAD
 Lahman::Batting %>% 
   count(playerID, yearID, stint, teamID, lgID) %>%
   filter(n > 1)
@@ -56,3 +57,5 @@ flights %>%
   geom_point() +
   coord_quickmap()
 
+=======
+>>>>>>> 1f5a9fba70e056a71196ce272afcaac0b03c8933
